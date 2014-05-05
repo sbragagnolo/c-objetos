@@ -1,0 +1,3 @@
+#!/bin/bash
+ 
+gcc prueba.c automata.o automan.o  Diccionario.o DiccionarioHibrido.o errman.o errobj.o estado.o memManager.o fd.o file.o Server.o ult.o mutex.o condition.o monitor.o datacontrol.o Collection.o string.o -lpthread -ggdb
